@@ -1,0 +1,31 @@
+@charset "utf-8";
+*{margin: 0px;padding: 0px;list-style:none;text-decoration: none;outline: none;box-sizing: border-box;}
+a{color:rgb(127, 128, 130);}
+/*=== START BODY ===*/
+body{font-family: 'CONSOLAS', 'Montserrat', 'Helvetica', sans-serif;color:rgb(144,146,145);}
+/*=== END BODY ===*/
+/*=== START SECTION ===*/
+body section{width: 400px;height: 85vh;position: fixed;top: 50%;left: 50%; transform: translate(-50%,-50%);display: flex;justify-content: center;align-items:CENTER;}
+body section .conteiner{width: 85%;text-align: center;}
+body section .conteiner > h1{color: #000;font-weight: bold;font-size: 30px;}
+body section .conteiner > h1 + span{margin:15px 0px 35px 0px;display: inline-block;}
+body section .conteiner > h1 + span a{text-decoration: underline;cursor: pointer;}
+body section .conteiner form input{display: block;border: none;width: 100%;padding: 15px;color:rgb(148, 150, 149);font-size: 16px;}
+body section .conteiner form input[type="text"]{border-bottom: 1px solid transparent;}
+body section .conteiner form input[type="password"]{border-bottom: 1px solid transparent;}
+body section .conteiner form input[type="button"]{font-size:15px;color: black;background-color:rgb(204,208,209);}
+body section .conteiner form input[type="text"]:focus{border-bottom: 1px solid rgb(227,227,227);}
+body section .conteiner form + span{margin:15px 0px 10px 0px;display: inline-block; background-color: blue;color:white;position: relative;}
+body section .conteiner .media_icon{margin:15px 0px;display: flex;justify-content: center;}
+body section .conteiner .media_icon a .fa{color: white;background-color:#aeaeae;padding: 20px;font-size: 25px;border-radius:50%;width:65px;height:65px;transition:all 1s;}
+body section .conteiner .media_icon a .fa-google-plus{background-color:rgb(231,63,60);}
+body section .conteiner .media_icon a .fa-google-plus:hover{color:rgb(231,63,60);background-color:white;}
+body section .conteiner .media_icon a .fa-facebook{background-color:rgb(75,103,176);}
+body section .conteiner .media_icon a .fa-facebook:hover{color:rgb(75,103,176);background-color:white;}
+body section .conteiner .media_icon a .fa-twitter{background-color:rgb(55,177,224);}
+body section .conteiner .media_icon a .fa-twitter:hover{color:rgb(55,177,224);background-color:white;}
+body section .conteiner .media_icon a:nth-child(2){margin: 0px 30px;}
+body section .conteiner .media_icon + span{margin:0px 0px 35px 0px;display: inline-block;}
+body section .conteiner p a{text-decoration: underline;}
+
+/*=== END SECTION ===*/
