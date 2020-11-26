@@ -118,6 +118,8 @@ body footer .container .con_top .border{width: 2px;height: auto;background-color
 @media (min-width:280px) and (max-width:1175px){
         body footer .container .con_top .description,.about,.contact_us,.sing_up{margin: 10px;}
         body footer .container .con_top .about + h3,.contact_us + h3,.sing_up + h3{font-weight: bold;}
+        body footer .container .con_top .about > h4:first-child{font-size:20px;}
+        body footer .container .con_top .about{text-align: center;border: 2px solid gray;padding: 10px 25px;outline: 2px solid black;outline-offset: 1px;}
         body footer .container .con_top .border{display: none;}
 }
         /* start content_bottom */
